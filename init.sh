@@ -50,7 +50,7 @@ Section "InputClass"
         Option "AccelerationDenominator" "10"
         Option "AccelerationThreshold" "10"
 EndSection
-" > 50-touchpad.conf
+" > /usr/share/X11/xorg.conf.d/50-touchpad.conf
 
 # Thinkfan (http://www.thinkwiki.org/wiki/ACPI_fan_control_script)
 	apt-get install thinkfan
