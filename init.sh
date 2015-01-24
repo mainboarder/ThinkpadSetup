@@ -18,7 +18,7 @@ deb-src http://ftp.de.debian.org/debian/ $VERSION-updates main
 		then 
 		wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /tmp/chrome.deb
 		dpkg -i /tmp/chrome.deb
-		rm /tmmp/chrome.deb
+		rm /tmp/chrome.deb
 	fi
 
 # Trackpoint (https://wiki.debian.org/InstallingDebianOn/Thinkpad/Trackpoint)
